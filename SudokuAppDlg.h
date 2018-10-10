@@ -20,7 +20,7 @@ typedef struct
 
 extern PRVOK Prvok[9][9];
 
-#include "Algorytmus.h"
+#include "Algoritmus.h"
 
 #define SDK_STD 1
 #define SDK_XS 2

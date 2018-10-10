@@ -215,24 +215,8 @@
 			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
 			>
 			<File
-				RelativePath="Algorytmus.cpp"
+				RelativePath=".\Algoritmus.cpp"
 				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
 			</File>
 			<File
 				RelativePath="StdAfx.cpp"
@@ -322,7 +306,7 @@
 			Filter="h;hpp;hxx;hm;inl"
 			>
 			<File
-				RelativePath="Algorytmus.h"
+				RelativePath=".\Algoritmus.h"
 				>
 			</File>
 			<File
