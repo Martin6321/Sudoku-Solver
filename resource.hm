@@ -1,0 +1,5 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by SudokuApp.rc
+//
+#define HIDC_SDKSS                      0x806603fc    // IDD_SUDOKUAPP_DIALOG [Neutral]
+#define HIDC_SDKXSS                     0x806603fb    // IDD_SUDOKUAPP_DIALOG [Neutral]

@@ -1,0 +1,283 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SUDOKUAPP_DIALOG DIALOGEX 0, 0, 462, 306
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Sudoku - No loaded file"
+MENU IDR_MENU1
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Ukoncit",IDCANCEL,400,52,50,14
+    PUSHBUTTON      "Solve",IDC_RIES,400,10,50,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Reset",IDC_RESET,400,38,50,14
+    CONTROL         "1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | WS_GROUP,403,73,15,15,WS_EX_STATICEDGE
+    CONTROL         "2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,417,73,15,15,WS_EX_STATICEDGE
+    CONTROL         "3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,431,73,15,15,WS_EX_STATICEDGE
+    CONTROL         "4",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,403,87,15,15,WS_EX_STATICEDGE
+    CONTROL         "5",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,417,87,15,15,WS_EX_STATICEDGE
+    CONTROL         "6",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,431,87,15,15,WS_EX_STATICEDGE
+    CONTROL         "7",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,403,100,15,15,WS_EX_STATICEDGE
+    CONTROL         "8",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,417,100,15,15,WS_EX_STATICEDGE
+    CONTROL         "9",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,431,100,15,15,WS_EX_STATICEDGE
+    LTEXT           "Èas riesenia:",IDC_STATIC,400,123,40,10
+    LTEXT           "Úroveò:",IDC_STATIC,400,150,25,10
+    LTEXT           "Zadanych:",IDC_STATIC,403,293,35,10
+    PUSHBUTTON      "Unsolve",IDC_UNSOLVE,400,24,50,14,NOT WS_TABSTOP
+    CONTROL         "Show possible values",IDC_SHOWPS,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_CENTER | BS_VCENTER | BS_MULTILINE | BS_FLAT | WS_TABSTOP,395,230,60,18,WS_EX_STATICEDGE
+    CTEXT           "1/1",IDC_LEVEL,400,160,50,11,SS_CENTERIMAGE | SS_SUNKEN | NOT WS_GROUP
+    CTEXT           "0.000 sec",IDC_TIME,400,134,50,11,SS_CENTERIMAGE | SS_SUNKEN
+    LISTBOX         IDC_SDKTYPE,398,185,55,40,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_TABSTOP
+    LTEXT           "Sudoku type:",IDC_STATIC,399,175,47,10,NOT WS_GROUP
+    CTEXT           "0",IDC_ZDN,438,293,20,10,SS_CENTERIMAGE | SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SUDOKUAPP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 450
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 299
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Slovak resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SKY)
+#ifdef _WIN32
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SudokuApp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SudokuApp.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Load F2",                    ID_LOAD
+        MENUITEM "&Save F3",                    ID_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       IDCANCEL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      ID_ABOUT
+    END
+END
+
+#endif    // Slovak resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 202, 61
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Sudoku"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Sudoku Version 1.0",IDC_STATIC,42,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,42,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,143,5,50,14,WS_GROUP
+    LTEXT           "Created by Zsolt Molnár",IDC_STATIC,42,39,119,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Sudoku MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Sudoku"
+            VALUE "LegalCopyright", "Copyright (C) 2007"
+            VALUE "OriginalFilename", "Sudoku.EXE"
+            VALUE "ProductName", "Sudoku Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About SudokuApp..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\SudokuApp.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

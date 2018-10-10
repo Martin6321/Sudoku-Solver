@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SudokuApp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\V30AB~1.RAB\LOCALS~1\Temp\RSP4F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/SudokuApp.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Documents and Settings\V.Rabbit\Desktop\Programy\C++\SudokuApp\Algorytmus.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\V30AB~1.RAB\LOCALS~1\Temp\RSP4F.tmp" 
+Creating temporary file "D:\DOCUME~1\V30AB~1.RAB\LOCALS~1\Temp\RSP50.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SudokuApp.pdb" /machine:I386 /out:"Release/SudokuApp.exe" 
+".\Release\Algorytmus.obj"
+".\Release\StdAfx.obj"
+".\Release\SudokuApp.obj"
+".\Release\SudokuAppDlg.obj"
+".\Release\SudokuApp.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\V30AB~1.RAB\LOCALS~1\Temp\RSP50.tmp"
+<h3>Output Window</h3>
+Compiling...
+Algorytmus.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/SudokuApp.bsc"  ".\Release\StdAfx.sbr" ".\Release\Algorytmus.sbr" ".\Release\SudokuApp.sbr" ".\Release\SudokuAppDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SudokuApp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
